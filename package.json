@@ -1,0 +1,14 @@
+{
+  "name": "network_app",
+  "version": "1.0.0",
+  "description": "service for network",
+  "repository": "https://github.com/antonMandrichenko/network_app",
+  "author": "Anton Mandrychenko",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.11.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
