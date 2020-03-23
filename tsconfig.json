@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "lib": ["es6"],
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": false,
+    "sourceMap": true,
+    "incremental": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "baseUrl": "src"
+  },
+  "include": [
+    "src/**/*.ts",
+    "db/**/*.ts"
+  ],
+  "exclude": [
+    "**/*.js",
+    "node_modules",
+    "build",
+    ".vscode"
+  ]
+}
