@@ -20,9 +20,11 @@
     "koa-router": "^8.0.8",
     "koa-session": "^5.13.1",
     "lodash": "^4.17.15",
-    "reflect-metadata": "^0.1.13"
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^0.17.6"
   },
   "devDependencies": {
+    "@types/graphql": "^14.5.0",
     "@types/ioredis": "^4.14.9",
     "@types/koa": "^2.11.2",
     "@types/koa-logger": "^3.1.1",
