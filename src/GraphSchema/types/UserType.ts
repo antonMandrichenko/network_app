@@ -9,14 +9,11 @@ export class UserType {
   public username?: string
 
   @Field(type => String, { nullable: true })
-  public lastName?: string
+  public password_hash: string
 
   @Field(type => String, { nullable: true })
-  public firstName?: string
-
-  @Field(type => String)
   public email: string
 
   @Field(type => String, { nullable: true })
-  public gender?: string
+  public mobile?: string
 }
