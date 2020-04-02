@@ -1,12 +1,12 @@
-import { DATABASE, HOST } from "./src/Config";
+// const { DATABASE, HOST } = require("./config");
 
 const ormconfig = {
   type: "postgres",
-  host: HOST,
+  host: process.env.HOST,
   port: 5432,
-  username: DATABASE.USER,
-  password: DATABASE.PASSWORD,
-  database: DATABASE.NAME,
+  username: process.env.DATABASE_USER,
+  password: process.env.DATABASE_PASSWORD,
+  database: process.env.DATABASE_NAME,
   synchronize: true,
   logging: false,
   migrationsTableName: "migrations",
