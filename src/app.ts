@@ -1,5 +1,6 @@
 import { printSchema } from "graphql";
 import Koa, { BaseContext } from "koa";
+import { createConnection } from "typeorm";
 import koaBody from "koa-body";
 import cors from "@koa/cors";
 import { publicRouter, privateRouter } from "Routes";
@@ -8,6 +9,8 @@ import { SECRETS } from "Config";
 
 const setupApp = async () => {
   const startTime = new Date().toUTCString();
+
+  await createConnection();
 
   const {
     server: graphQLServer,
