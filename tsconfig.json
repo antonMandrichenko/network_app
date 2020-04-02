@@ -22,7 +22,6 @@
   },
   "include": [
     "src/**/*.ts",
-    "db/**/*.ts"
   ],
   "exclude": [
     "**/*.js",
