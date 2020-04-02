@@ -18,7 +18,10 @@ export const HOST = getEnvData("HOST");
 export const PORT = getEnvData("PORT");
 
 export const DATABASE = {
-  URL: getEnvData("DATABASE_URL")
+  URL: getEnvData("DATABASE_URL"),
+  NAME: getEnvData("DATABASE_NAME"),
+  USER: getEnvData("DATABASE_USER"),
+  PASSWORD: getEnvData("DATABASE_PASSWORD")
 };
 
 export const REDIS = {
